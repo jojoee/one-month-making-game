@@ -10,6 +10,8 @@ var compiler = webpack(config);
 
 app.use(require("webpack-dev-middleware")(compiler, {
   noInfo: true,
+  quiet: true,
+  lazy: false,
   publicPath: config.output.publicPath
 }));
 

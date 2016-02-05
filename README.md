@@ -1,6 +1,8 @@
 # One Month Making Game
 A slide of my experience about making a game in one month (and Global Game Jam 2016 - Thailand's site)
 
+[![One Month Making Game - Screenshot](https://raw.githubusercontent.com/jojoee/one-month-making-game/gh-pages/screenshot.jpg "One Month Making Game - Screenshot")](http://jojoee.github.io/one-month-making-game/)
+
 ## Note
 - Based on: my experience
 - Presentation Library: [spectacle](https://github.com/FormidableLabs/spectacle), [spectacle-boilerplate](https://github.com/FormidableLabs/spectacle-boilerplate)

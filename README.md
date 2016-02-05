@@ -29,3 +29,6 @@ A slide of my experience about making a game in one month (and Global Game Jam 2
 1. Set path (e.g. `cd C:\xampp\htdocs\jojoee.com\one-month-making-game`)
 2. Install dependencies `npm install`
 3. Start `npm start`
+
+## TODO
+- Add `end` slide

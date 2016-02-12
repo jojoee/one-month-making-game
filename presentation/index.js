@@ -43,9 +43,10 @@ const images = {
 
 preloader(images);
 
-const theme = createTheme({
-  primary: "#ff4081"
-});
+const theme = createTheme(
+  { primary: "#ff4081" },
+  { primary: "Open Sans" }
+);
 
 export default class Presentation extends React.Component {
   render() {

@@ -8,6 +8,8 @@ A slide of my experience about making a game in one month (and Global Game Jam 2
 - Presentation Library: [spectacle](https://github.com/FormidableLabs/spectacle), [spectacle-boilerplate](https://github.com/FormidableLabs/spectacle-boilerplate)
 - Presentation Library (alternatives) : [impress.js](https://github.com/impress/impress.js), [reveal.js](https://github.com/hakimel/reveal.js), [bespoke](https://github.com/bespokejs/bespoke)
 - Image by: [ThaiGameJam](https://www.facebook.com/ThaiGameJam)
+- Browsersync GIF by: [File 1](http://cruzlutor.com/como-configurar-browsersync-gulp/), [File 2](https://css-tricks.com/gulp-for-beginners/)
+- [Compression tool](https://compressor.io/)
 
 ## Controls
 
@@ -34,3 +36,4 @@ A slide of my experience about making a game in one month (and Global Game Jam 2
 
 ## TODO
 - Add `end` slide
+- Fix `browsersync` image file (original file type is `gif`)

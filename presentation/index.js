@@ -38,7 +38,10 @@ const images = {
   live1: require("../assets/live1.jpg"),
   live2: require("../assets/live2.jpg"),
   ourteam: require("../assets/ourteam.jpg"),
-  ourgame: require("../assets/ourgame.png")
+  ourgame: require("../assets/ourgame.png"),
+  browsersync1: require("../assets/browsersync1.jpg"),
+  browsersync2: require("../assets/browsersync2.jpg"),
+  sampleState: require("../assets/sample-state.jpg"),
 };
 
 preloader(images);
@@ -51,6 +54,7 @@ const theme = createTheme(
 export default class Presentation extends React.Component {
   render() {
     return (
+
       <Spectacle theme={theme}>
         <Deck transition={["slide"]}>
           <Slide transition={["slide"]} bgColor="primary">
@@ -77,10 +81,11 @@ export default class Presentation extends React.Component {
               - 2D / 3D
               - Your dev OS
               - Etc.">
+            
+            <Text textSize="1.5em" margin="20px 0px 0px" textColor="white" bold caps>Definitely</Text>
             <Heading size={2} fit caps lineHeight={1} textColor="primary">
-              Definitely
+              we have to pick a TOOL
             </Heading>
-            <Text textSize="1.5em" margin="20px 0px 0px" textColor="white" bold caps>we have to pick a TOOL</Text>
             <List>
               <ListItem textColor="white">Cross platform</ListItem>
               <ListItem textColor="white">Community</ListItem>
@@ -89,7 +94,17 @@ export default class Presentation extends React.Component {
                 <ListItem margin="0 0 0 60px" textColor="white">more plugins</ListItem>
                 <ListItem margin="0 0 0 60px" textColor="white">more help / support</ListItem>
               </List>
+              <ListItem textColor="white">Live reloading (optional)</ListItem>
             </List>
+          </Slide>
+
+          <Slide transition={["slide"]} bgColor="black">
+            <Image src={images.browsersync1.replace("/", "")} margin="0px auto 40px"/>
+            <Text textSize="2em" margin="20px 0px 0px" textColor="white" bold>Browsersync</Text>
+          </Slide>
+
+          <Slide transition={["slide"]} bgColor="black">
+            <Image src={images.browsersync2.replace("/", "")} width="920px"/>
           </Slide>
 
           <Slide transition={["slide"]} bgColor="black">
@@ -100,6 +115,7 @@ export default class Presentation extends React.Component {
                 <ListItem textColor="primary">I know the workflow (by gulp.js)</ListItem>
                 <ListItem textColor="primary">I am familiar with</ListItem>
                 <ListItem textColor="primary">I know a lot of js plugins</ListItem>
+                <ListItem textColor="primary">Live reloading by Browsersync</ListItem>
               </List>
             </Appear>
           </Slide>
@@ -116,6 +132,10 @@ export default class Presentation extends React.Component {
               <ListItem textColor="black">Try to debug / implement / fix</ListItem>
               <ListItem textColor="black">Not write your own game</ListItem>
             </List>
+          </Slide>
+
+          <Slide transition={["slide"]} bgColor="white">
+            <Image src={images.sampleState.replace("/", "")} width="920px"/>
           </Slide>
 
           <Slide transition={["slide"]} bgColor="white">

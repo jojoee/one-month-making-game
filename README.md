@@ -1,7 +1,7 @@
 # One Month Making Game
 A slide of my experience about making a game in one month (and Global Game Jam 2016 - Thailand's site)
 
-[![One Month Making Game - Screenshot](https://raw.githubusercontent.com/jojoee/one-month-making-game/gh-pages/screenshot.jpg "One Month Making Game - Screenshot")](http://jojoee.github.io/one-month-making-game/)
+[![One Month Making Game - Screenshot](https://raw.githubusercontent.com/jojoee/one-month-making-game/gh-pages/screenshot.jpg "One Month Making Game - Screenshot")](http://jojoee.github.io/one-month-making-game/) [![Greenkeeper badge](https://badges.greenkeeper.io/jojoee/one-month-making-game.svg)](https://greenkeeper.io/)
 
 ## Note
 - Based on: my experience
